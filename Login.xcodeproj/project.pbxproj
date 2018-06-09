@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		546C963B20722647001FADCA /* LoggedInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C963A20722647001FADCA /* LoggedInScreen.swift */; };
+		546C963D207226D6001FADCA /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C963C207226D6001FADCA /* ForgotPassword.swift */; };
+		546C963F207226E2001FADCA /* ForgotUsername.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546C963E207226E2001FADCA /* ForgotUsername.swift */; };
 		54DF62922071464F00917E40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DF62912071464F00917E40 /* AppDelegate.swift */; };
 		54DF62942071465000917E40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DF62932071465000917E40 /* ViewController.swift */; };
 		54DF62972071465000917E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54DF62952071465000917E40 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		546C963A20722647001FADCA /* LoggedInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInScreen.swift; sourceTree = "<group>"; };
+		546C963C207226D6001FADCA /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		546C963E207226E2001FADCA /* ForgotUsername.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotUsername.swift; sourceTree = "<group>"; };
 		54DF628E2071464F00917E40 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54DF62912071464F00917E40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54DF62932071465000917E40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +63,9 @@
 				54DF62912071464F00917E40 /* AppDelegate.swift */,
 				54DF62932071465000917E40 /* ViewController.swift */,
 				54DF62952071465000917E40 /* Main.storyboard */,
+				546C963C207226D6001FADCA /* ForgotPassword.swift */,
+				546C963E207226E2001FADCA /* ForgotUsername.swift */,
+				546C963A20722647001FADCA /* LoggedInScreen.swift */,
 				54DF62982071465000917E40 /* Assets.xcassets */,
 				54DF629A2071465000917E40 /* LaunchScreen.storyboard */,
 				54DF629D2071465000917E40 /* Info.plist */,
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546C963F207226E2001FADCA /* ForgotUsername.swift in Sources */,
 				54DF62942071465000917E40 /* ViewController.swift in Sources */,
+				546C963B20722647001FADCA /* LoggedInScreen.swift in Sources */,
 				54DF62922071464F00917E40 /* AppDelegate.swift in Sources */,
+				546C963D207226D6001FADCA /* ForgotPassword.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
